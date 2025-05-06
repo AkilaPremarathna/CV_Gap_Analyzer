@@ -779,7 +779,7 @@ def get_chatbot_response(user_question, cv_context_summary, chat_history):
 
 # --- Streamlit GUI ---
 st.set_page_config(layout="wide")
-st.title("📊 CV Batch Processing, Ranking & Chatbot")
+st.title("📊 CV Batch Processing")
 st.caption("Uses Gemini for analysis/chat and MongoDB for storage.")
 
 if 'batch_id' not in st.session_state:
